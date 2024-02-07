@@ -1,7 +1,12 @@
 #pragma once
 #include "computer_room.h"
+#include "global_file.h"
 #include "identity.h"
+#include "order_file.h"
+#include <fstream>
+#include <iostream>
 #include <vector>
+using namespace std;
 
 class Student : public Identity {
 public:
